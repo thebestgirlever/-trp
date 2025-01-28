@@ -1,0 +1,41 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page34337794.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^header$ page34336801.html [NC]
+RewriteRule ^header/$ page34336801.html [NC]
+
+RewriteRule ^news$ page34344960.html [NC]
+RewriteRule ^news/$ page34344960.html [NC]
+
+RewriteRule ^footer$ page34425501.html [NC]
+RewriteRule ^footer/$ page34425501.html [NC]
+
+RewriteRule ^project$ page34425729.html [NC]
+RewriteRule ^project/$ page34425729.html [NC]
+
+RewriteRule ^about$ page34432440.html [NC]
+RewriteRule ^about/$ page34432440.html [NC]
+
+RewriteRule ^lead$ page34435749.html [NC]
+RewriteRule ^lead/$ page34435749.html [NC]
+
+RewriteRule ^sert$ page34436347.html [NC]
+RewriteRule ^sert/$ page34436347.html [NC]
+
+RewriteRule ^partners$ page36893034.html [NC]
+RewriteRule ^partners/$ page36893034.html [NC]
+
+RewriteRule ^main2$ page37891825.html [NC]
+RewriteRule ^main2/$ page37891825.html [NC]
+
+RewriteRule ^contacts$ page37972790.html [NC]
+RewriteRule ^contacts/$ page37972790.html [NC]
+
+
